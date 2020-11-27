@@ -1,0 +1,23 @@
+.hamburger span {
+    display: block;/*as block line like<p> with new line*/
+    width: 36px;
+    height: 6px;
+    margin: 6px 0;
+    background-color: #222;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.change.bar1 {
+    top: 11px;/*10px down from the top edge*/
+    transform: rotate(45deg);
+}
+.change.bar2 {
+    opacity: 0;
+}
+.change.bar3 {
+    bottom: 12px;
+    transform: rotate(-45deg);
+}
